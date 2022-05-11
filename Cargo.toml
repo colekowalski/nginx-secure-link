@@ -1,0 +1,11 @@
+[package]
+name = "nginx-secure-link"
+version = "0.1.0"
+description = "Library to generate or verify Nginx secure links"
+authors = ["Cole Kowalski <cole@northernbloc.org>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+base64 = "0.13"
+md5 = "0.7.0"

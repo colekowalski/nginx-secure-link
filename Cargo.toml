@@ -1,10 +1,13 @@
 [package]
 name = "nginx-secure-link"
-version = "0.1.0"
-description = "Library to generate or verify Nginx secure links"
+version = "0.1.1"
+edition = "2021"
+description = "Library to generate or verify checksums for use with the Nginx secure_link_module"
 authors = ["Cole Kowalski <cole@northernbloc.org>"]
 license = "MIT"
-edition = "2021"
+homepage = "https://github.com/colekowalski/nginx-secure-link"
+repository = "https://github.com/colekowalski/nginx-secure-link"
+readme = "README.md"
 
 [dependencies]
 base64 = "0.13"
